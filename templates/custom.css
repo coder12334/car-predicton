@@ -1,0 +1,84 @@
+
+
+
+
+
+
+#sub {
+    width: 120px;
+height: 43px;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  border: 2px solid #192A56;
+}
+
+
+
+#sub:hover {
+    background-color: darkcyan;
+}
+
+#first {
+    height: 25px;
+    font-size: 20px;
+     border: 2px solid #616C6F;
+    
+}
+ 
+body{
+    margin: 0;
+}
+
+
+body {
+  //background: url("car.jpg") no-repeat;
+
+  background: #EAF0F1;
+  padding: 0px;
+
+
+}
+.car {
+    position: absolute;
+    z-index: 1;
+    top: 306px;
+    right:-50px;
+    animation:run 10s infinite linear;
+}
+.car2 {
+    top: 354px;
+    right:50px;
+    -webkit-animation-duration: 15s; /
+    animation-duration: 15s;
+}
+.car-body img{width:200px;}
+
+.tair{
+  position:absolute;
+  }.tair img{width:40px;animation:rotate 3s infinite linear;position:relative;}
+  .tair1{  
+      left:35px;
+      top:106px;
+  }
+  .tair2{  
+      left:128px;
+      top:106px;
+  }
+  @keyframes rotate{
+      100% {transform: rotate(-360deg);}
+  }
+
+  @keyframes run{
+      100% {transform:translateX(-1200px);}
+  }
+
+#left-side {
+    margin-left: 20px;
+}
+
+#right-side{
+    float: right;
+    margin-top:-500px;
+    margin-right:250px;
+}
